@@ -1861,7 +1861,16 @@ def main():
             'gl': { 'male': 'futbolista ~', 'female': 'futbolista ~' },  
             'he': { 'male': 'שחקן כדורגל ~', 'female': 'שחקנית כדורגל ~' }, 
         }, 
+        '~ athlete': {
+            'ar': { 'male': 'رياضي ~', 'female': 'رياضية ~' }, 
+            'ca': { 'male': 'atleta ~', 'female': 'atleta ~' }, 
+            'en': { 'male': '~ athlete', 'female': '~ athlete' }, 
+            'es': { 'male': 'atleta ~', 'female': 'atleta ~' }, 
+            'gl': { 'male': 'atleta ~', 'female': 'atleta ~' },  
+            'he': { 'male': 'אתלט ~', 'female': 'אתלטית ~' }, 
+        }, 
         '~ association football manager': { #translate
+            'ar': { 'male': 'مدرب كرة قدم ~', 'female': 'مدربة كرة قدم ~' },             
             'ca': { 'male': 'entrenador de futbol ~', 'female': 'entrenadora de futbol ~' }, 
             'en': { 'male': '~ association football manager', 'female': '~ association football manager' }, 
             'es': { 'male': 'entrenador de fútbol ~', 'female': 'entrenadora de fútbol ~' }, 
@@ -1876,7 +1885,7 @@ def main():
             'he': { 'male': 'אסטרונום ~', 'female': 'אסטרונומית ~' }, 
         }, 
         '~ athlete': {
-            'ar': { 'male': 'رياضي ~', 'female': 'رياضية ~' }, 
+            'ar': { 'male': 'رياضي ~', 'female': 'رياضية ~' },             
             'ca': { 'male': 'atleta ~', 'female': 'atleta ~' }, 
             'en': { 'male': '~ athlete', 'female': '~ athlete' }, 
             'es': { 'male': 'atleta ~', 'female': 'atleta ~' }, 
@@ -1884,7 +1893,7 @@ def main():
             'he': { 'male': 'אתלט ~', 'female': 'אתלטית ~' }, 
         }, 
         '~ athletics competitor': {
-            'ar': { 'male': 'رياضي ~', 'female': 'رياضية ~' }, 
+            'ca': { 'male': 'منافس ألعاب قوى ~', 'female': 'منافسة ألعاب قوى ~' },             
             'ca': { 'male': 'atleta ~', 'female': 'atleta ~' }, 
             'en': { 'male': '~ athletics competitor', 'female': '~ athletics competitor' }, 
             'es': { 'male': 'atleta ~', 'female': 'atleta ~' }, 
@@ -1892,6 +1901,7 @@ def main():
             'he': { 'male': 'אתלט ~', 'female': 'אתלטית ~' }, 
         }, 
         '~ basketball player': { #translate
+            'ar': { 'male': 'لاعب كرة سلة ~', 'female': 'لاعبة كرة سلة ~' },             
             'ca': { 'male': 'jugador de bàsquet ~', 'female': 'jugadora de bàsquet ~' }, 
             'en': { 'male': '~ basketball player', 'female': '~ basketball player' }, 
             'es': { 'male': 'baloncestista ~', 'female': 'baloncestista ~' }, 
@@ -1906,24 +1916,28 @@ def main():
             'he': { 'male': 'בוטנאי ~', 'female': 'בוטנאית ~' }, 
         }, 
         '~ bicycle racer': { #translate, it should be the same as cyclist
+            'ar': { 'male': 'متسابق دراجات ~', 'female': 'متسابقة دراجات ~' },            
             'ca': { 'male': 'ciclista ~', 'female': 'ciclista ~' }, 
             'en': { 'male': '~ bicycle racer', 'female': '~ bicycle racer' }, 
             'es': { 'male': 'ciclista ~', 'female': 'ciclista ~' }, 
             'gl': { 'male': 'ciclista ~', 'female': 'ciclista ~' },
         }, 
         '~ businessperson': { #translate
+            'ar': { 'male': 'رجل أعمال ~', 'female': 'سيدة أعمال ~' },            
             'ca': { 'male': 'empresari ~', 'female': 'empresària ~' }, 
             'en': { 'male': '~ businessperson', 'female': '~ businessperson' }, 
             'es': { 'male': 'empresario ~', 'female': 'empresaria ~' }, 
             'gl': { 'male': 'empresario ~', 'female': 'empresaria ~' },  
         }, 
         '~ catholic priest': { #translate, lower c
+            'ar': { 'male': 'قس كاثوليكي ~', 'female': 'قس كاثوليكي ~' },             
             'ca': { 'male': 'sacerdot catòlic ~', 'female': 'sacerdot catòlica ~' }, 
             'en': { 'male': '~ catholic priest', 'female': '~ catholic priest' }, 
             'es': { 'male': 'sacerdote católico ~', 'female': 'sacerdote católica ~' }, 
             'gl': { 'male': 'sacerdote católico ~', 'female': 'sacerdote católica ~' },  
         }, 
         '~ Catholic priest': { #translate, upper C
+            'ar': { 'male': 'قس كاثوليكي ~', 'female': 'قس كاثوليكي ~' },             
             'ca': { 'male': 'sacerdot catòlic ~', 'female': 'sacerdot catòlica ~' }, 
             'en': { 'male': '~ Catholic priest', 'female': '~ Catholic priest' }, 
             'es': { 'male': 'sacerdote católico ~', 'female': 'sacerdote católica ~' }, 
@@ -1937,7 +1951,16 @@ def main():
             'gl': { 'male': 'químico ~', 'female': 'química ~' },  
             'he': { 'male': 'כימאי ~', 'female': 'כימאית ~' }, 
         }, 
+        '~ composer': {
+            'ar': { 'male': 'ملحن ~', 'female': 'ملحنة ~' }, 
+            'ca': { 'male': 'compositor ~', 'female': 'compositora ~' }, 
+            'en': { 'male': '~ composer', 'female': '~ composer' }, 
+            'es': { 'male': 'compositor ~', 'female': 'compositora ~' }, 
+            'gl': { 'male': 'compositor ~', 'female': 'compositora ~' },  
+            'he': { 'male': 'מלחין ~', 'female': 'מלחינה ~' }, 
+        }, 
         "~ children's writer": { #translate
+            'ar': { 'male': 'كاتب أدب أطفال ~', 'female': 'كاتبة أدب أطفال ~' },             
             'ca': { 'male': 'escriptor de literatura infantil ~', 'female': 'escriptora de literatura infantil ~' }, 
             'en': { 'male': "~ children's writer", 'female': "~ children's writer" }, 
             'es': { 'male': 'escritor de literatura infantil ~', 'female': 'escritora de literatura infantil ~' }, 
@@ -1952,13 +1975,14 @@ def main():
             'he': { 'male': 'כוריאוגרף ~', 'female': 'כוריאוגרפית ~' },  
         }, 
         '~ comics artist': { #translate
+            'ar': { 'male': 'فنان قصص مصورة ~', 'female': 'فنانة قصص مصورة ~' },             
             'ca': { 'male': 'dibuixant de còmics ~', 'female': 'dibuixant de còmics ~' }, 
             'en': { 'male': '~ comics artist', 'female': '~ comics artist' }, 
             'es': { 'male': 'historietista ~', 'female': 'historietista ~' }, 
             'gl': { 'male': 'historietista ~', 'female': 'historietista ~' },  
         }, 
         '~ composer': {
-            'ar': { 'male': 'ملحن ~', 'female': 'ملحنة ~' }, 
+            'ar': { 'male': 'ملحن ~', 'female': 'ملحنة ~' },             
             'ca': { 'male': 'compositor ~', 'female': 'compositora ~' }, 
             'en': { 'male': '~ composer', 'female': '~ composer' }, 
             'es': { 'male': 'compositor ~', 'female': 'compositora ~' }, 
@@ -1966,6 +1990,7 @@ def main():
             'he': { 'male': 'מלחין ~', 'female': 'מלחינה ~' }, 
         }, 
         '~ cyclist': { #translate
+            'ar': { 'male': 'دراج ~', 'female': 'دراجة ~' },             
             'ca': { 'male': 'ciclista ~', 'female': 'ciclista ~' }, 
             'en': { 'male': '~ cyclist', 'female': '~ cyclist' }, 
             'es': { 'male': 'ciclista ~', 'female': 'ciclista ~' }, 
@@ -2012,7 +2037,7 @@ def main():
             'he': { 'male': 'סייף ~', 'female': 'סייפת ~' }, 
         }, 
         '~ film actor': {
-            'ar': { 'male': 'ممثل ~', 'female': 'ممثلة ~' }, 
+            'ar': { 'male': 'ممثل ~', 'female': 'ممثلة ~' },             
             'ca': { 'male': 'actor ~', 'female': 'actriu ~' }, 
             'en': { 'male': '~ actor', 'female': '~ actress' }, 
             'es': { 'male': 'actor ~', 'female': 'actriz ~' }, 
@@ -2100,6 +2125,7 @@ def main():
             'he': { 'male': 'מוזיקאי ~', 'female': 'מוזיקאית ~' }, 
         }, 
         '~ novelist': { #translate
+            'ar': { 'male': 'روائي ~', 'female': 'روائية ~' },             
             'ca': { 'male': 'novel·lista ~', 'female': 'novel·lista ~' }, 
             'en': { 'male': '~ novelist', 'female': '~ novelist' }, 
             'es': { 'male': 'novelista ~', 'female': 'novelista ~' }, 
@@ -2178,12 +2204,14 @@ def main():
             'he': { 'male': 'פוליטיקאי ~', 'female': 'פוליטיקאית ~' }, 
         }, 
         '~ publisher': { #translate
+            'ar': { 'male': 'ناشر ~', 'female': 'ناشرة ~' },             
             'ca': { 'male': 'editor ~', 'female': 'editora ~' }, 
             'en': { 'male': '~ publisher', 'female': '~ publisher' }, 
             'es': { 'male': 'editor ~', 'female': 'editora ~' }, 
             'gl': { 'male': 'editor ~', 'female': 'editora ~' },  
         }, 
         '~ rugby union player': { #translate
+            'ar': { 'male': 'لاعب اتحاد الرغبي ~', 'female': 'لاعب اتحاد الرغبي ~' },            
             'ca': { 'male': 'jugador de rugbi ~', 'female': 'jugadora de rugbi ~' }, 
             'en': { 'male': '~ rugby union player', 'female': '~ rugby union player' }, 
             'es': { 'male': 'jugador de rugby ~', 'female': 'jugadora de rugby ~' }, 
@@ -2230,6 +2258,7 @@ def main():
             'he': { 'male': 'חייל ~', 'female': 'חיילת ~' }, 
         }, 
         '~ sport cyclist': { #translate, it should be the same as cyclist
+            'ar': { 'male': 'دراج ~', 'female': 'دراجة ~' },            
             'ca': { 'male': 'ciclista ~', 'female': 'ciclista ~' }, 
             'en': { 'male': '~ sport cyclist', 'female': '~ sport cyclist' }, 
             'es': { 'male': 'ciclista ~', 'female': 'ciclista ~' }, 
@@ -2252,6 +2281,7 @@ def main():
             'he': { 'male': 'טניסאי ~', 'female': 'טניסאית ~' }, 
         }, 
         '~ university teacher': { #translate
+            'ar': { 'male': 'أستاذ جامعي ~', 'female': 'أستاذة جامعية ~' },            
             'ca': { 'male': "professor d'universitat ~", 'female': "professora d'universitat ~" }, 
             'en': { 'male': '~ university teacher', 'female': '~ university teacher' }, 
             'es': { 'male': 'profesor universitario ~', 'female': 'profesora universitaria ~' }, 
